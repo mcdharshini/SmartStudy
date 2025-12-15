@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+sentence-transformers
+chromadb
+PyPDF2
+openai
+python-multipart
+groq
+beautifulsoup4
+requests
+youtube-transcript-api
+wikipedia
