@@ -401,8 +401,8 @@ export default function QuizPage() {
                 onValueChange={handleAnswer}
                 className="space-y-3"
               >
-                {currentQuestion.options?.map((option) => (
-                  <div key={option.id}>
+                {currentQuestion.options?.map((option, index) => (
+                  <div key={`${option.id}-${index}`}>
                     <Label
                       htmlFor={option.id}
                       className={cn(
